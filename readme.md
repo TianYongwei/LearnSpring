@@ -6,7 +6,7 @@
 - 一是 servlet3.0 版本新增若干注解，使得 Servlet, Filter, Listener 可以不必声明在 xml 中，而是可以以类加注解的形式出现，这样web.xml 就不是必须的了。
 - 一是 WebApplicationInitializer 这个类，做了很多 web 容器初始化的工作。
 
-> spring 管理 （manager.security.enabled = false）
+> spring 管理 （management.security.enabled = false）
 - http://localhost:8080/beans 可以查看spring管理的beans
 - http://localhost:8080/env 查看profile等
 
