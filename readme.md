@@ -7,6 +7,7 @@
 - 一是 WebApplicationInitializer 这个类，做了很多 web 容器初始化的工作。
 
 > spring 运维管理 spring-boot actuator （management.security.enabled = false）
-[springboot(十九)：使用Spring Boot Actuator监控应用 - 纯洁的微笑博客](http://www.ityouknow.com/springboot/2018/02/06/spring-boot-actuator.html)
+
+- [springboot(十九)：使用Spring Boot Actuator监控应用 - 纯洁的微笑博客](http://www.ityouknow.com/springboot/2018/02/06/spring-boot-actuator.html)
 - http://localhost:8080/beans 可以查看spring管理的beans
 - http://localhost:8080/env 查看profile等
