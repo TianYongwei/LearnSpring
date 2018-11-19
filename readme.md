@@ -1,6 +1,6 @@
 # Learn Spring
 
-> 学习Spring的关键是理解注解的“派生性”。
+> 学习Spring的关键是理解“注解派生性”。
 
 > Spring之所以可以不用 web.xml ，做到所谓的约定大于配置，两方面原因在起作用：
 - 一是 servlet3.0 版本新增若干注解，使得 Servlet, Filter, Listener 可以不必声明在 xml 中，而是可以以类加注解的形式出现，这样web.xml 就不是必须的了。
