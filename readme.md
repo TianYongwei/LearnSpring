@@ -15,3 +15,5 @@
 ## 参考
 - [【 分类 】- Spring - dm_vincent的专栏（后端工程师，前端技术爱好者。） - CSDN博客](https://blog.csdn.net/dm_vincent/article/category/5632803)
 - [fangjian0423/springboot-analysis: 💥 something about springboot](https://github.com/fangjian0423/springboot-analysis)
+- [SpringBoot源码分析之SpringBoot的启动过程 | Format's Notes](https://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/)
+- [Format's Notes](http://fangjian0423.github.io/)
