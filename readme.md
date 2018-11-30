@@ -23,3 +23,4 @@
 3. [SpringBoot源码分析之SpringBoot的启动过程 | Format's Notes](https://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/)
 4. [Format's Notes](http://fangjian0423.github.io/)
 5. [springboot 源码解析 - Google 搜索](https://www.google.com.hk/search?q=springboot+%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90&oq=springboot+%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90+&aqs=chrome..69i57j0.5858j0j7&sourceid=chrome&ie=UTF-8)
+6. [Spring Boot自动配置的"魔法"是如何实现的？ | SylvanasSun's Blog](https://sylvanassun.github.io/2018/01/08/2018-01-08-spring_boot_auto_configure/)
