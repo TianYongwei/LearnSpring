@@ -16,6 +16,7 @@
 - [springboot(十九)：使用Spring Boot Actuator监控应用 - 纯洁的微笑博客](http://www.ityouknow.com/springboot/2018/02/06/spring-boot-actuator.html)
 - http://localhost:8080/beans 可以查看spring管理的beans
 - http://localhost:8080/env 查看profile等
+9. @profile 派生自 @conditional
 
 ## 参考
 1. [【 分类 】- Spring - dm_vincent的专栏（后端工程师，前端技术爱好者。） - CSDN博客](https://blog.csdn.net/dm_vincent/article/category/5632803)
@@ -24,3 +25,4 @@
 4. [Format's Notes](http://fangjian0423.github.io/)
 5. [springboot 源码解析 - Google 搜索](https://www.google.com.hk/search?q=springboot+%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90&oq=springboot+%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90+&aqs=chrome..69i57j0.5858j0j7&sourceid=chrome&ie=UTF-8)
 6. [Spring Boot自动配置的"魔法"是如何实现的？ | SylvanasSun's Blog](https://sylvanassun.github.io/2018/01/08/2018-01-08-spring_boot_auto_configure/)
+7. [Spring Boot自动配置 - Google 搜索](https://www.google.com.hk/search?newwindow=1&safe=strict&ei=-28AXKDAOMiZ8gWJ6ZzIDg&q=Spring+Boot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE&oq=Spring+Boot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE&gs_l=psy-ab.3..0i7i30.90599.92582..92980...0.0..0.155.621.1j4......0....1..gws-wiz.......33i160.Nq1t7DBvyTw)
