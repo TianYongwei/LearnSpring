@@ -16,6 +16,42 @@
     - http://localhost:8080/env 查看profile等
 9. @profile 派生自 @conditional
 
+知识点
+@Bean -> @Configuratiion
+@Enbalexxx -> @Import
+@Configuration 派生自 @Component
+```
+/**
+ * Indicates that a class declares one or more {@link Bean @Bean} methods and
+ * may be processed by the Spring container to generate bean definitions and
+ * service requests for those beans at runtime
+ */
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+@Component
+public @interface Configuration {
+
+	@AliasFor(annotation = Component.class)
+	String value() default "";
+
+}
+```
+```
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+@Indexed
+public @interface Component {
+
+	String value() default "";
+
+}
+```
+
+
+1. [【译】spring框架中的@Import注解 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000011068471)
+
 ## 参考
 1. [【 分类 】- Spring - dm_vincent的专栏（后端工程师，前端技术爱好者。） - CSDN博客](https://blog.csdn.net/dm_vincent/article/category/5632803)
 2. [fangjian0423/springboot-analysis: 💥 something about springboot](https://github.com/fangjian0423/springboot-analysis)
