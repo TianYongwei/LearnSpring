@@ -20,34 +20,42 @@
 @Bean -> @Configuratiion
 @Enbalexxx -> @Import
 @Configuration 派生自 @Component
-```
-/**
- * Indicates that a class declares one or more {@link Bean @Bean} methods and
- * may be processed by the Spring container to generate bean definitions and
- * service requests for those beans at runtime
- */
-@Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
-@Documented
-@Component
-public @interface Configuration {
+@Configuration 配合 @Bean 使用
+@PropertySource("classpath:/jdbc.properties")  
+@Value()
 
-	@AliasFor(annotation = Component.class)
-	String value() default "";
+@Value("我是个普通字符串")
+private String nornal;
 
-}
-```
-```
-@Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
-@Documented
-@Indexed
-public @interface Component {
+@Value("#{systemEnvironment['os.name']}")
+private String osName;
 
-	String value() default "";
+@Value("#{T(java.lang.Math).random()*1000.0}")
+private double randomNumber;
 
-}
-```
+@Value("#{demoService.anotherValue}")
+private String anotherValue;
+
+@Value("classpath:ch2/value/test.txt")
+private Resource testFile;
+
+@Value("http://www.baidu.com")
+private Resource testUrl;
+
+@Value("${book.name}")
+private String bookName;
+
+@ComponentScan(basePackages = "com.spring.test")
+@ComponentScans
+@Repeatable(ComponentScans.class) —— 来自Java8
+
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+1、singleton
+2、prototype
+3、request、session、global session（介绍）
+
+@Bean
+@Lookup 和 <lookup-method/>标签 改变单例类的属性
 
 
 1. [【译】spring框架中的@Import注解 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000011068471)
