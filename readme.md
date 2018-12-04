@@ -2,6 +2,7 @@
 
 Bean相关
 |注解|关联注解|实现方式|
+|----|------|------|
 |@Bean|@Configuration||
 
 学习Spring的关键
