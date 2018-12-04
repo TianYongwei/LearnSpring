@@ -1,10 +1,20 @@
 # Learn Spring
 
-Bean相关
+Bean
 
-| 注解 | 关联注解 | 实现方式 |
-| ---- | ------ | ------ |
-| @Bean | @Configuration ||
+| 注解 | Target | 关联注解 | 实现方式 | 所在模块 | 所在包 |
+| --- | --- | --- | --- | --- | --- |
+
+事务（Transactional） 
+
+缓存
+
+JPA
+
+MVC
+
+自动化配置
+
 
 学习Spring的关键
 1. 理解“注解派生性”。
