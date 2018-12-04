@@ -68,3 +68,8 @@ private String bookName;
 5. [springboot 源码解析 - Google 搜索](https://www.google.com.hk/search?q=springboot+%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90&oq=springboot+%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90+&aqs=chrome..69i57j0.5858j0j7&sourceid=chrome&ie=UTF-8)
 6. [Spring Boot自动配置的"魔法"是如何实现的？ | SylvanasSun's Blog](https://sylvanassun.github.io/2018/01/08/2018-01-08-spring_boot_auto_configure/)
 7. [Spring Boot自动配置 - Google 搜索](https://www.google.com.hk/search?newwindow=1&safe=strict&ei=-28AXKDAOMiZ8gWJ6ZzIDg&q=Spring+Boot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE&oq=Spring+Boot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE&gs_l=psy-ab.3..0i7i30.90599.92582..92980...0.0..0.155.621.1j4......0....1..gws-wiz.......33i160.Nq1t7DBvyTw)
+8. [Spring 框架的设计理念与设计模式分析](https://www.ibm.com/developerworks/cn/java/j-lo-spring-principle/index.html)
+- [Spring 各种注解备注 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000013094650)
+- [spring 常用注解 - 程序园](http://www.voidcn.com/article/p-vnuuxhnq-bcq.html)
+- [Spring常用注解介绍【经典总结】 - 阿飞(dufyun)的博客 - CSDN博客](https://blog.csdn.net/u010648555/article/details/76299467)
+- [spring注解大全启用 - 筱进GG - CSDN博客](https://blog.csdn.net/zhaokejin521/article/details/50455651)
