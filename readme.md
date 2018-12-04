@@ -1,9 +1,9 @@
 # Learn Spring
 
 Bean相关
-|注解|关联注解|实现方式|
-|----|------|------|
-|@Bean|@Configuration||
+| 注解 | 关联注解 | 实现方式 |
+| ---- | ------ | ------ |
+| @Bean | @Configuration ||
 
 学习Spring的关键
 1. 理解“注解派生性”。
