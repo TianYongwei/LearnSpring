@@ -16,6 +16,8 @@ MVC
 
 自动化配置
 
+bean validate
+
 
 学习Spring的关键
 1. 理解“注解派生性”。
