@@ -27,7 +27,7 @@ bean validate
 5. 从 @SpringBootApplition 注解开始看起，该注解派生自其它若干个注解`注解的派生性（继承性）`
 6. 要想明白源码中注解为何如此解析首先需要明白该注解是如何定义的`注解的定义很重要`
 7. Spring之所以可以不用 web.xml ，做到所谓的约定大于配置，两方面原因在起作用：
-    - 一是 servlet3.0 版本新增若干注解，使得 Servlet, Filter, Listener 可以不必声明在 xml 中，而是可以以类加注解的形式出现，这样web.xml 就不是必须的了。
+    - 一是 servlet3.0 版本新增若干注解，使得 Servlet, Filter, Listener 可以不必声明在 xml 中，而是可以以类加注解的形式出现，这样 web.xml 就不是必须的了。
     - 一是 WebApplicationInitializer 这个类，做了很多 web 容器初始化的工作。
 8. spring 运维管理 spring-boot actuator （management.security.enabled = false）
     - [springboot(十九)：使用Spring Boot Actuator监控应用 - 纯洁的微笑博客](http://www.ityouknow.com/springboot/2018/02/06/spring-boot-actuator.html)
@@ -75,6 +75,14 @@ private String bookName;
 
 @Bean
 @Lookup 和 <lookup-method/>标签 改变单例类的属性
+
+## idea 快捷键
+1. 跳转后跳回：command + option + left/right
+2. 查看调用链：ctrol + option + h
+3. 查看继承链：ctrol + h
+4. 查看实现类：command + option + b  
+5. 最近文件弹窗： command + e
+6. 快速查看类定义: open + Space,command + Y
 
 
 1. [【译】spring框架中的@Import注解 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000011068471)
